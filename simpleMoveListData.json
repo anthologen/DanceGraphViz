@@ -1,0 +1,22 @@
+[{
+  "data": {
+    "id": "test",
+    "name": "Test"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "babyFreeze",
+    "name": "Baby Freeze"
+  },
+  "style": {
+    "background-image": "http://localhost:8000/bb_freeze.jpg",
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "source": "test",
+    "target": "babyFreeze"
+  },
+  "group": "edges"
+}]
