@@ -5,16 +5,21 @@ var cy = cytoscape({
   autounselectify: true,
 
   layout: {
-    name: 'grid'
+    name: 'dagre',
+    rankDir: 'LR',
+    spacingFactor: 1.1
   },
 
   style: [
     {
       'selector': 'node',
       style: {
-        label: 'data(name)',
+        'label': 'data(name)',
         'text-valign': 'bottom',
-        'background-fit': 'cover'
+        'background-fit': 'cover',
+        'font-size': '12px',
+        'width': 50,
+        'height': 50
       },
     },
     {

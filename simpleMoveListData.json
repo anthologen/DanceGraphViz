@@ -1,7 +1,55 @@
 [{
   "data": {
-    "id": "test",
-    "name": "Test"
+    "id": "indianStep",
+    "name": "Indian Step Front"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "backwardsIndianStep",
+    "name": "Indian Step Back"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "hipTwist",
+    "name": "Hip Twists"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "kneeDrop",
+    "name": "Knee Drop"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "corkscrew",
+    "name": "Corkscrew"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "legDrop",
+    "name": "Leg Drop"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "6step",
+    "name": "6 Step"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "kickOut",
+    "name": "Kick Out"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "cc",
+    "name": "CC"
   },
   "group": "nodes"
 }, {
@@ -10,13 +58,61 @@
     "name": "Baby Freeze"
   },
   "style": {
-    "background-image": "http://localhost:8000/bb_freeze.jpg",
+    "background-image": "http://localhost:8000/bb_freeze.jpg"
   },
   "group": "nodes"
 }, {
   "data": {
-    "source": "test",
-    "target": "babyFreeze"
+    "source": "indianStep",
+    "target": "backwardsIndianStep"
   },
   "group": "edges"
+}, {
+    "data": {
+      "source": "backwardsIndianStep",
+      "target": "hipTwist"
+    },
+    "group": "edges"
+}, {
+    "data": {
+      "source": "hipTwist",
+      "target": "kneeDrop"
+    },
+    "group": "edges"
+}, {
+    "data": {
+      "source": "kneeDrop",
+      "target": "corkscrew"
+    },
+    "group": "edges"
+}, {
+    "data": {
+      "source": "corkscrew",
+      "target": "legDrop"
+    },
+    "group": "edges"
+}, {
+    "data": {
+      "source": "legDrop",
+      "target": "6step"
+    },
+    "group": "edges"
+}, {
+    "data": {
+      "source": "6step",
+      "target": "kickOut"
+    },
+    "group": "edges"
+}, {
+    "data": {
+      "source": "kickOut",
+      "target": "cc"
+    },
+    "group": "edges"
+}, {
+    "data": {
+      "source": "cc",
+      "target": "babyFreeze"
+    },
+    "group": "edges"
 }]
