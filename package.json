@@ -1,0 +1,26 @@
+{
+  "name": "dancegraphviz",
+  "version": "0.1.0",
+  "description": "An experiment in dance graph vizualization",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthologen/DanceGraphViz.git"
+  },
+  "keywords": [
+    "dance"
+  ],
+  "author": "anthologen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthologen/DanceGraphViz/issues"
+  },
+  "homepage": "https://github.com/anthologen/DanceGraphViz#readme",
+  "dependencies": {
+    "cytoscape": "^3.8.2",
+    "cytoscape-dagre": "^2.2.2"
+  }
+}
