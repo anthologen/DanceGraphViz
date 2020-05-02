@@ -1,0 +1,79 @@
+[{
+  "data": {
+    "id": "entry1",
+    "name": "Entry 1"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "entry2",
+    "name": "Entry 2"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "entry3",
+    "name": "Entry 3"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "target",
+    "name": "Target"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "exit1",
+    "name": "Exit 1"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "exit2",
+    "name": "Exit 2"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "id": "exit3",
+    "name": "Exit 3"
+  },
+  "group": "nodes"
+}, {
+  "data": {
+    "source": "entry1",
+    "target": "target"
+  },
+  "group": "edges"
+}, {
+    "data": {
+      "source": "entry2",
+      "target": "target"
+    },
+    "group": "edges"
+}, {
+    "data": {
+      "source": "entry3",
+      "target": "target"
+    },
+    "group": "edges"
+}, {
+    "data": {
+      "source": "target",
+      "target": "exit1"
+    },
+    "group": "edges"
+}, {
+    "data": {
+      "source": "target",
+      "target": "exit2"
+    },
+    "group": "edges"
+}, {
+    "data": {
+      "source": "target",
+      "target": "exit3"
+    },
+    "group": "edges"
+}]

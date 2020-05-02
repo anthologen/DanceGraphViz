@@ -1,3 +1,4 @@
 [submodule "simple_server"]
 	path = simple_server
 	url = https://gist.github.com/razor-x/9542707
+	ignore = dirty
