@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    { "data": { "id": "2step", "name": "2-Step", "image": "http://localhost:8000/images/2step.png" } },
+    { "data": { "id": "kneeDrop", "name": "Knee Drop", "image": "http://localhost:8000/images/knee_drop.png" } },
+    { "data": { "id": "hook", "name": "Hook", "image": "http://localhost:8000/images/hook.png" } }
+  ],
+  "edges": [
+    { "data": { "source": "2step", "target": "kneeDrop" } },
+    { "data": { "source": "kneeDrop", "target": "hook" } }
+  ]
+}
