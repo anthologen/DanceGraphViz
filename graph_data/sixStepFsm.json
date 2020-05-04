@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    { "data": { "id": "standing", "name": "Standing", "image": "http://localhost:8000/images/stand.png" } },
+    { "data": { "id": "kneeDrop", "name": "Knee Drop" , "image": "http://localhost:8000/images/knee_drop.png" } },
+    { "data": { "id": "hook", "name": "Hook", "image": "http://localhost:8000/images/hook.png", "parent": "sixStep" } },
+    { "data": { "id": "squat", "name": "Squat", "image": "http://localhost:8000/images/squat.png", "parent": "sixStep" } },
+    { "data": { "id": "kickout", "name": "Kickout", "image": "http://localhost:8000/images/kickout.png" } },
+    { "data": { "id": "babyFreeze", "name": "Baby Freeze", "image": "http://localhost:8000/images/bb_freeze.png" } },
+    { "data": { "id": "crossStep", "name": "Cross Step", "image": "http://localhost:8000/images/cross_step.png", "parent": "sixStep" } },
+    { "data": { "id": "pushup", "name": "Push Up", "image": "http://localhost:8000/images/push_up.png", "parent": "sixStep" } },
+    { "data": { "id": "sixStep", "name": "Six Step"} }
+  ],
+  "edges": [
+    { "data": { "source": "standing", "target": "kneeDrop" } },
+    { "data": { "source": "kneeDrop", "target": "hook" } },
+    { "data": { "source": "hook", "target": "squat" } },
+    { "data": { "source": "squat", "target": "hook" } },
+    { "data": { "source": "squat", "target": "kickout" } },
+    { "data": { "source": "kickout", "target": "squat" } },
+    { "data": { "source": "hook", "target": "babyFreeze" } },
+    { "data": { "source": "babyFreeze", "target": "hook" } },
+    { "data": { "source": "hook", "target": "crossStep" } },
+    { "data": { "source": "crossStep", "target": "hook" } },
+    { "data": { "source": "pushup", "target": "crossStep" } },
+    { "data": { "source": "crossStep", "target": "pushup" } }
+  ]
+}
