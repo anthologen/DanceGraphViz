@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    { "data": { "id": "stand", "name": "Standing", "image": "http://localhost:8000/images/stand.png" } },
+    { "data": { "id": "hipTwist", "name": "Hip Twist", "image": "http://localhost:8000/images/hip_twist.png" } },
+    { "data": { "id": "backStep", "name": "Back Step", "image": "http://localhost:8000/images/back_step.png" } },
+    { "data": { "id": "wideHipTwist", "name": "Wide Hip Twist", "image": "http://localhost:8000/images/wide_hip_twist.png" } },
+    { "data": { "id": "legTwist", "name": "Leg Twist", "image": "http://localhost:8000/images/leg_twist.png" } },
+    { "data": { "id": "hook", "name": "Hook", "image": "http://localhost:8000/images/hook2.png" } },
+    { "data": { "id": "cc", "name": "CC", "image": "http://localhost:8000/images/cc.png" } },
+    { "data": { "id": "babyFreeze", "name": "Baby Freeze", "image": "http://localhost:8000/images/bb_freeze.png" } },
+    { "data": { "id": "threadedCrossStep", "name": "Theaded Cross Step", "image": "http://localhost:8000/images/threaded_cross_step.png" } },
+    { "data": { "id": "spinUp", "name": "Spin Up", "image": "http://localhost:8000/images/spin_up.png" } }
+  ],
+  "edges": [
+    { "data": { "source": "stand", "target": "hipTwist" } },
+    { "data": { "source": "hipTwist", "target": "backStep" } },
+    { "data": { "source": "backStep", "target": "wideHipTwist" } },
+    { "data": { "source": "wideHipTwist", "target": "legTwist" } },
+    { "data": { "source": "legTwist", "target": "hook" } },
+    { "data": { "source": "hook", "target": "cc" } },
+    { "data": { "source": "cc", "target": "babyFreeze" } },
+    { "data": { "source": "babyFreeze", "target": "threadedCrossStep" } },
+    { "data": { "source": "threadedCrossStep", "target": "spinUp" } }
+  ]
+}
