@@ -6,7 +6,8 @@ var cy = cytoscape({
 
   layout: {
     name: 'dagre',
-    rankDir: 'LR'
+    rankDir: 'LR',
+    spacingFactor: 0.75
   },
 
   style: [
@@ -14,7 +15,7 @@ var cy = cytoscape({
       'selector': 'node',
       style: {
         'label': 'data(name)',
-        'text-valign': 'bottom',
+        'text-valign': 'center',
         'background-fit': 'cover',
         'font-size': '14px',
         'width': 50,
